@@ -12,8 +12,8 @@ class StudentDetails(Base):
 
 class StudentMarks(Base):
     __tablename__ = 'student_marks2'
-    student_id = Column(Integer, ForeignKey('student_details2.student_id'), index=True)
-    subject = Column(String, primary_key=True)
+    student_id = Column(Integer, ForeignKey('student_details2.student_id'), primary_key=True, index=True)
+    subject = Column(String, primary_key=True, index=True)
     marks = Column(Float)
 
 student = relationship("StudentDetails")
