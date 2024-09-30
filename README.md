@@ -22,4 +22,4 @@ This is a FastAPI application that manages student details and marks. It provide
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/fastapi-student-api.git
+   git clone https://github.com/kameshrathore/fastapi-student-api.git
